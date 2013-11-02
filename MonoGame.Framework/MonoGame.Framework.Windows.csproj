@@ -392,7 +392,7 @@
     <Compile Include="Graphics\States\Blend.cs" />
     <Compile Include="Graphics\States\BlendFunction.cs" />
     <Compile Include="Graphics\States\BlendState.cs" />
-	<Compile Include="Graphics\States\TargetBlendState.cs" />
+    <Compile Include="Graphics\States\TargetBlendState.cs" />
     <Compile Include="Graphics\ClearOptions.cs" />
     <Compile Include="Graphics\GraphicsDeviceStatus.cs" />
     <Compile Include="Graphics\GraphicsProfile.cs" />
@@ -471,5 +471,8 @@
     <EmbeddedResource Include="Graphics\Effect\Resources\DualTextureEffect.dx11.mgfxo" />
     <EmbeddedResource Include="Graphics\Effect\Resources\EnvironmentMapEffect.dx11.mgfxo" />
     <EmbeddedResource Include="Graphics\Effect\Resources\SkinnedEffect.dx11.mgfxo" />
+  </ItemGroup>
+  <ItemGroup>
+    <Fakes Include="Fakes\Lidgren.Network.Windows.fakes" />
   </ItemGroup>
 </Project>
